@@ -187,8 +187,8 @@ The number of pixels on this screen is 5+5+5 = 5*3
 You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
 
 ```swift
-let sum = 16 // a + b 
-let diff = 4 // a - b
+var sum = 16 // a + b 
+var diff = 4 // a - b
 
 Example 1
 Input: 
@@ -212,6 +212,32 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+
+<details>
+  <summary>Solution</summary>
+ 
+```swift
+ var sum = 16
+ var diff = 4
+
+ //sum + diff = 2 * a
+ var a = (sum + diff) / 2
+ print(a) // 10
+
+ // sum = a + b
+ var b = sum - a
+ print(b) // 6
+
+ sum = 2
+ diff = 0
+ a = (sum + diff) / 2
+ print(a) // 1
+
+ b = sum - a
+ print(b) // 1
+```
+ 
+</details>
 
 ***
 ## 7. Swap Values

@@ -164,6 +164,23 @@ Consider a 5x3 screen like this:
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
 
+<details>
+  <summary>Solution</summary>
+ 
+```swift
+ var width = 4
+ var height = 3
+ var numberOfPixels = width * height
+ print(numberOfPixels) // 12
+
+ width = 1920
+ height = 1080
+ numberOfPixels = width * height
+ print(numberOfPixels) // 2073600
+```
+ 
+</details>
+
 ***
 ## 6. Sum and Difference
 

@@ -120,6 +120,16 @@ The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
 
+<details>
+  <summary>Solution</summary>
+ 
+```swift
+ let secondsInAYear = 365 * (24 * (60 * 60))
+ print(secondsInAYear) // 31536000
+```
+ 
+</details>
+
 ***
 ## 5. Number of Pixels
 

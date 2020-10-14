@@ -387,6 +387,25 @@ Solve for alice
 
 ```
 
+<details>
+  <summary>Solution</summary>
+ 
+```swift
+ var bob = 12
+ var x = 3
+ var y = 2
+ var alice = y * (bob + x) - x
+ print(alice) // 27
+
+ bob = 12
+ x = 1
+ y = 3
+ alice = y * (bob + x) - x
+ print(alice) // 38
+```
+ 
+</details>
+
 ***
 ## 11. Trading Oranges for Apples
 

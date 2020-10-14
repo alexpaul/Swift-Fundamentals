@@ -263,6 +263,23 @@ a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
 
+<details>
+  <summary>Solution</summary>
+ 
+```swift
+ var a = 1
+ var b = 2
+
+ let temp = a
+ a = b
+ b = temp
+
+ print(a) // 2
+ print(b) // 1
+```
+ 
+</details>
+
 ***
 ## 8. Find last number
 

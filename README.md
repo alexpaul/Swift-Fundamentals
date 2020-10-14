@@ -2,7 +2,7 @@
 
 Swift fundamentals with exercises.
 
-> Attention developer: Read the Swift Language Guide on a Topic before going on to continue the exercies.
+> Attention developer: Read the Swift Language Guide on a topic before going on to `Exerices` section.
 
 ## Table of Contents 
 

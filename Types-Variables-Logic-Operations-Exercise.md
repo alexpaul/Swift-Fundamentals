@@ -341,6 +341,16 @@ Output:
 
 ```
 
+<details>
+  <summary>Solution</summary>
+ 
+```swift
+ var rockysAgeInDogYears = 50
+ print(rockysAgeInDogYears / 7) // 7
+```
+ 
+</details>
+
 ***
 ## 10. Alice's Age
 

@@ -2,6 +2,8 @@
 
 Swift fundamentals with exercises.
 
+> Attention developer: Read the Swift Language Guide on a Topic before going on to continue the exercies.
+
 ## Table of Contents 
 
 1. [The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)

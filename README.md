@@ -34,6 +34,6 @@ Swift fundamentals with exercises.
 
 ## Exercises
 
-For the exercises copy the contents into a Swift Playground or an online IDE like https://repl.it to complete them. 
+Complete the exercise in Swift Playground or an online IDE like https://repl.it . 
 
 1. [Types, Variables, Logic and Operations](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Types-Variables-Logic-Operations-Exercise.swift)

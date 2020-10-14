@@ -10,6 +10,10 @@ Swift fundamentals with exercises.
    ```swift 
    let swiftIntroduced = "2014"
    ```
+1. [Basic Operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
+   ```swift 
+   9 % 4 // 1 
+   ```
 1. [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
    ```swift 
    let char: Character = "🚀"

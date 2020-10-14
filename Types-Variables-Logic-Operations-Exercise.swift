@@ -3,30 +3,35 @@
 // 1.
 // Which of the following variables/constants are declared correctly?
 
-//let nameOfPrincipal: Character = "Mrs. Watkins"
-//
-//var temperatureOutside: Int = 90.7
-//
-//var isSummer: String = false
-//
-//let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
-//
-//var peopleAtParty: Double = "95"
+/*
+ 
+ a. let nameOfPrincipal: Character = "Mrs. Watkins"
+
+ b. var temperatureOutside: Int = 90.7
+
+ c. var isSummer: String = false
+
+ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
+
+ e. var peopleAtParty: Double = "95"
+*/
 
 
 
 // 2.
 // Which of the following expressions evaluate to true?
 
-//!(4 + 3 < 2 * 4)
-//
-//!(1 + 1 != 2) && !(3 >= 3)
-//
-//(3 < 2 || (0 < 1 && 3 >= 3)) && true
-//
-//!!(!!true && !!false)
-//
-//true && (true && (true && (true || false)))
+/*
+ a. !(4 + 3 < 2 * 4)
+
+ b. !(1 + 1 != 2) && !(3 >= 3)
+
+ c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
+
+ d. !!(!!true && !!false)
+
+ e. true && (true && (true && (true || false)))
+*/
 
 
 // 3.
@@ -218,7 +223,7 @@
  Solve for alice
 */
 
-// 11. 
+// 11.
 /*
 You have x apples. Bob trades 3 oranges for 5 apples. He does not accept trades with cut fruit. How many oranges can you get from Bob and how many apples will you have left? The number of apples you will have left should be stored in a variable named apples. The number of oranges you will have after the trade should be stored in a variable named oranges.
 */
@@ -227,18 +232,18 @@ You have x apples. Bob trades 3 oranges for 5 apples. He does not accept trades 
 var x = 17
 
 Example 1
-Input: 
+Input:
 var x = 17
 
-Expected values: 
+Expected values:
 apples = 2
 oranges = 9
 
 Example 2
-Input: 
+Input:
 var x = 25
 
-Expected values: 
+Expected values:
 apples = 0
 oranges = 15
 
@@ -246,7 +251,7 @@ Hint:
 Use the division(/) and the remainder(%) operator
 */
 
-// 12. 
+// 12.
 /*
 A class consists of numberOfBoys boys and numberOfGirls girls.
 
@@ -258,8 +263,8 @@ var numberOfBoys = 20
 var numberOfGirls = 60
 
 Example 1
-Input: 
-var numberOfBoys = 20  
+Input:
+var numberOfBoys = 20
 var numberOfGirls = 60
 
 Output:
@@ -268,7 +273,7 @@ Output:
 */
 
 
-// 13. 
+// 13.
 // Which of the following expressions evaluate to true?
 
 /*
@@ -277,5 +282,4 @@ b. 9 == 2
 c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
-*/ 
-
+*/

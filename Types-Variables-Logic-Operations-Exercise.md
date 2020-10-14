@@ -43,6 +43,23 @@ d. !!(!!true && !!false)
 e. true && (true && (true && (true || false)))
 ```
 
+<details>
+  <summary>Solution</summary>
+ 
+```swift
+ a. !(4 + 3 < 2 * 4) - answer is false
+
+ b. !(1 + 1 != 2) && !(3 >= 3) - answer is false
+
+ c. (3 < 2 || (0 < 1 && 3 >= 3)) && true - answer is true
+
+ d. !!(!!true && !!false) - error
+
+ e. true && (true && (true && (true || false))) answer is true
+```
+ 
+</details>
+
 ***
 
 ## 3. Sum

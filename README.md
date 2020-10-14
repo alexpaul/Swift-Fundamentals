@@ -35,7 +35,16 @@ Swift fundamentals with exercises.
     }
     ```
 1. [Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
+   ```swift 
+   func developerStatus() -> String {
+     return "Always learning!"
+   }
+   ```
 1. [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
+   ```swift 
+   let add: (Int, Int) -> Int = { $0 + $1 }
+   add(12, 7) // 19
+   ```
 
 
 ## Exercises

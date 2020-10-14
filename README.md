@@ -10,3 +10,8 @@ Swift fundamentals with exercises.
 1. [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
 1. [Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
 1. [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
+
+
+## Exercises
+
+1. [Types, Variables, Logic and Operations](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Types-Variables-Logic-Operations-Exercise.swift)

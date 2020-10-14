@@ -306,6 +306,25 @@ Hint:
 Use the remainder % operator.
 ```
 
+<details>
+  <summary>Solution</summary>
+ 
+```swift
+ var lastDigit = 123
+ while lastDigit > 10 {
+   lastDigit %= 10
+ }
+ print(lastDigit) // 3
+
+ lastDigit = 337
+ while lastDigit > 10 {
+   lastDigit %= 10
+ }
+ print(lastDigit) // 7
+```
+ 
+</details>
+
 ***
 ## 9. Dog Years
 

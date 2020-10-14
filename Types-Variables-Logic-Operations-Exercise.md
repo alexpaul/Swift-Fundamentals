@@ -91,6 +91,23 @@ Output:
 35
 ```
 
+<details>
+  <summary>Solution</summary>
+ 
+```swift
+ var a = 1
+ var b = 2
+ var sum = a + b
+ print(sum) // 3
+
+ a = 13
+ b = 22
+ sum = a + b
+ print(sum) // 35
+```
+ 
+</details>
+
 ***
 ## 4. Seconds in Year
 

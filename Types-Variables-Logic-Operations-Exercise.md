@@ -17,11 +17,11 @@ e. var peopleAtParty: Double = "95"
 
 <details> 
   <summary>Solution</summary>
-a. error - "Mrs. Watkins" is a String type and not a Character
-b. error - 90.7 is a Double and not an Int
-c. error - false is a Bool value and not a String 
-d. error - syntax error Int + String is error
-e. error - "95" is a String and not a Double
+a. error - "Mrs. Watkins" is a String type and not a Character  
+b. error - 90.7 is a Double and not an Int  
+c. error - false is a Bool value and not a String   
+d. error - syntax error Int + String is error  
+e. error - "95" is a String and not a Double  
 </details>
 
 ***

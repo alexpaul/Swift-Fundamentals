@@ -1,4 +1,4 @@
-The Basics. Basic Operators. 
+# The Basics. Basic Operators. Exercises
 
 ## 1. Variable Declarations
 

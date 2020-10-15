@@ -24,15 +24,17 @@ Swift fundamentals with exercises.
    ```
 1. [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
     ```swift
-    let language = "swift"
-    switch language {
-    case "swift":
-      print("You develop for Apple devices.")
-    case "kotlin":
-      print("You develop for Android devices.")
-    default:
-      print("Not sure what programming language to choose? Try Swift.")
-    }
+   print("Please enter a number between 1 and 20 ?")
+   var input = Int(readLine() ?? "") ?? 2
+
+   if !(1...20).contains(input) {
+     input = 2 
+   }
+
+   repeat {
+     print("Swift is awesome! 😎")
+     input -= 1
+   } while input > 0
     ```
 1. [Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
    ```swift 

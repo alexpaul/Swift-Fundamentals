@@ -14,7 +14,7 @@ Swift fundamentals with exercises.
    ```swift 
    9 % 4 // 1 
    ```
-1. [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
+1. [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
    ```swift 
    let char: Character = "🚀"
    ```

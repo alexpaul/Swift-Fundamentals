@@ -545,7 +545,7 @@ d. 9 > 7 && 7 < 10
 
 </details>
 
-## Question 15
+## 15. Class Average
 
 You are given three grades obtained by 3 students, which are stored in variables `grade1`, `grade2`, `grade3` and all of type `Double`.
 Create a variable called `yourGrade` of type `Double` and give it a value.
@@ -580,7 +580,7 @@ var grade3 = 5.0
 </details>
 
 ***
-## Question 16
+## 16. Even or Odd
 
 You are given a number. Print even if the number is even or odd otherwise.
 

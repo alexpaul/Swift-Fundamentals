@@ -477,6 +477,22 @@ Output:
 
 ```
 
+<details>
+  <summary>Solution</summary>
+
+```swift
+ let boys = 60
+ let girls = 20
+ let total = boys + girls
+ let percentageBoys = (boys * 100) / total
+ let percentageGirls = (girls * 100) / total
+
+ print(percentageBoys)
+ print(percentageGirls)
+```
+
+</details>
+
 ***
 ## 13. Boolean Evaluations 2
 
@@ -491,16 +507,40 @@ e. !(true && true)
 
 ```
 
+<details>
+  <summary>Solution</summary>
+
+```swift
+ a. false || true - evaluates to true
+ b. false && true - evaluates to false
+ c. !false - evaluates to true
+ d. !!!true - error
+ e. !(true && true) - evaluates to false
+```
+
+</details>
+
 ***
 ## 14. Boolean Evaluations 3
 
 Which of the following expressions evaluate to true?
 
 ```swift
-a. 3 < 12.3
-b. 9 == 2
-c. "Hello!" == "Hello!"
-d. 19.0 >= 19.0
-e. 9 > 7 && 7 < 10
+a. 9 == 2
+b. "Hello!" == "Hello!"
+c. 19.0 >= 19.0
+d. 9 > 7 && 7 < 10
 
 ```
+
+<details>
+  <summary>Solution</summary>
+
+```swift
+ a. 9 == 2 - evaluates to false
+ b. "Hello!" == "Hello!" - evaluates to true
+ c. 19.0 >= 19.0 - evaluates to true
+ d. 9 > 7 && 7 < 10 - evaluates to true
+```
+
+</details>

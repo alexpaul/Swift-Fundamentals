@@ -435,12 +435,32 @@ Use the division(/) and the remainder(%) operator
 
 ```
 
+<details>
+  <summary>Solution</summary>
+
+```swift
+ var x = 17
+ var applesUsed = 0
+
+ var apples = x % 5 // 2 apples left
+ var oranges = (x / 5 ) * 3 // 9 oranges acquired from trade
+
+ x = 25
+ applesUsed = 0
+
+ apples = x % 5 // 0
+ oranges = (x / 5 ) * 3 // 15
+```
+
+</details>
+
 ***
 ## 12. Boy and Girl Percentages
 
 A class consists of `numberOfBoys` boys and `numberOfGirls` girls.
 
-Print the percentage of boys in the class followed by the percentage of girls in the class. The percentage should be printed rounded down to the nearest integer. For example 33.333333333333 will be printed as 33.
+Print the percentage of boys in the class followed by the percentage of girls in the class. 
+The percentage should be printed rounded down to the nearest integer. For example 33.333333333333 will be printed as 33.
 
 ```swift
 var numberOfBoys = 20

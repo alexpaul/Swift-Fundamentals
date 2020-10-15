@@ -544,3 +544,63 @@ d. 9 > 7 && 7 < 10
 ```
 
 </details>
+
+## Question 15
+
+You are given three grades obtained by 3 students, which are stored in variables `grade1`, `grade2`, `grade3` and all of type `Double`.
+Create a variable called `yourGrade` of type `Double` and give it a value.
+Print `"above average"` if your grade is greater than the class average or `"below average"` otherwise.
+
+```swift
+var grade1 = 7.0
+var grade2 = 9.0
+var grade3 = 5.0
+```
+
+<details>
+  <summary>Solution</summary>
+
+```swift
+ var grade1 = 7.0
+ var grade2 = 9.0
+ var grade3 = 5.0
+ var youGrade = 8.0
+
+ let classAverage = (grade1 + grade2 + grade3 + youGrade) / 4
+
+ print("Class average is \(classAverage)")
+
+ if youGrade > classAverage {
+   print("above average")
+ } else {
+   print("below average")
+ }
+```
+
+</details>
+
+***
+## Question 16
+
+You are given a number. Print even if the number is even or odd otherwise.
+
+```swift
+let number = 2
+```
+
+<details>
+  <summary>Solution</summary>
+
+```swift
+let number = 2
+
+if number % 2 == 0 {
+  print("even") // even 
+} else {
+  print("odd")
+}
+```
+
+</details>
+
+***

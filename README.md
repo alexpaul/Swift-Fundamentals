@@ -56,8 +56,13 @@ Complete the exercise in Swift Playground or an online IDE like https://repl.it 
 
 ## Projects 
 
-To evaluate your Swift fundamentals work on any of the following projects as command line macOS application. 
+To evaluate your Swift fundamentals work on any of the following projects as a command line macOS application. 
 
-* A Black Jack Card Game 
+* Black Jack 
+* Mad Libs Generator
+* Rock, Paper, Scissors
 * Tic Tac Toe 
 * Hangman 
+* Calculator
+* Trivia Game
+* Text-Based Adventure Game

@@ -53,7 +53,7 @@ Swift fundamentals with exercises.
    ```swift 
    let languages = ["C", "Java", "Objective-C", "Swift", "JavaScript"]
    ```
-1. [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
+## 5. [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
     ```swift
    print("Please enter a number between 1 and 20 ?")
    var input = Int(readLine() ?? "") ?? 2
@@ -67,18 +67,19 @@ Swift fundamentals with exercises.
      input -= 1
    } while input > 0
     ```
-1. [Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
+    
+## 6. [Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
    ```swift 
    func developerStatus() -> String {
      return "Always learning!"
    }
    ```
-1. [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
+## 7. [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
    ```swift 
    let add: (Int, Int) -> Int = { $0 + $1 }
    add(12, 7) // 19
    ```
-1. [Enumerations](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
+## 8. [Enumerations](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
    ```swift 
    enum AppError: Error {
      case decodingError(Error) 
@@ -87,7 +88,7 @@ Swift fundamentals with exercises.
    }
    ```
    
-1. [Structures and Classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
+## 9. [Structures and Classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
    ```swift 
    struct Venue {
      let address: String 

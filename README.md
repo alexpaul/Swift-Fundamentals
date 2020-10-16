@@ -30,6 +30,21 @@ Swift fundamentals with exercises.
    ```swift 
    9 % 4 // 1 
    ```
+   #### Glossary 
+   * Arthimetics operators: `+, *, -, /`
+   * Remainder or modulo operator `%` 
+   * Ternary operator `(condition) ? :`
+   * Unary operator 
+   * Binary operator 
+   * Assigment opeator
+   * Compound stateements 
+   * Comparison operators `>, <, <=, >=, ==, !=`
+   * Closed-range 
+   * Half-open range 
+   * One-sided range 
+   * Logical operators `&&, ||, !a`
+   
+   
 1. [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
    ```swift 
    let char: Character = "🚀"

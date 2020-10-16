@@ -10,6 +10,22 @@ Swift fundamentals with exercises.
    ```swift 
    let swiftIntroduced = "2014"
    ```
+   #### Glossary
+   * Type Safety
+   * Variables 
+   * Constants 
+   * Type Annotation 
+   * Type Inference 
+   * String 
+   * Int 
+   * Float
+   * Double 
+   * Boolean 
+   * Tuples
+   * Optionals 
+   * Optional Binding 
+   * nil-coalescing
+   
 1. [Basic Operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
    ```swift 
    9 % 4 // 1 

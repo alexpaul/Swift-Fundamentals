@@ -56,7 +56,7 @@ Swift fundamentals with exercises.
    }
    ```
    
-1. [Structures and Classes](https://docs.swift.org/swift-book/LanguageGuide/Structures-and-Classes.html)
+1. [Structures and Classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
    ```swift 
    struct Venue {
      let address: String 

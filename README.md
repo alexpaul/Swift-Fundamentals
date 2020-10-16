@@ -35,13 +35,13 @@ Swift fundamentals with exercises.
    ```
    
    #### Glossary 
-   * Arthimetics operators: `+, *, -, /`
+   * Arithmetic operators: `+, *, -, /`
    * Remainder or modulo operator `%` 
    * Ternary operator `(condition) ? :`
    * Unary operator 
    * Binary operator 
-   * Assigment opeator
-   * Compound stateements 
+   * Assignment opeator
+   * Compound statements 
    * Comparison operators `>, <, <=, >=, ==, !=`
    * Closed-range 
    * Half-open range 

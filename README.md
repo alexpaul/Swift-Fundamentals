@@ -7,9 +7,11 @@ Swift fundamentals with exercises.
 # Table of Contents 
 
 ## 1. [The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+
    ```swift 
    let swiftIntroduced = "2014"
    ```
+   
    #### Glossary
    * Type Safety
    * Variables 
@@ -27,9 +29,11 @@ Swift fundamentals with exercises.
    * nil-coalescing
    
 ## 2. [Basic Operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
+
    ```swift 
    9 % 4 // 1 
    ```
+   
    #### Glossary 
    * Arthimetics operators: `+, *, -, /`
    * Remainder or modulo operator `%` 
@@ -46,15 +50,20 @@ Swift fundamentals with exercises.
    
    
 ## 3. [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
+
    ```swift 
    let char: Character = "🚀"
    ```
+   
 ## 4. [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
+
    ```swift 
    let languages = ["C", "Java", "Objective-C", "Swift", "JavaScript"]
    ```
+   
 ## 5. [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
-    ```swift
+
+   ```swift
    print("Please enter a number between 1 and 20 ?")
    var input = Int(readLine() ?? "") ?? 2
 
@@ -66,20 +75,25 @@ Swift fundamentals with exercises.
      print("Swift is awesome! 😎")
      input -= 1
    } while input > 0
-    ```
+   ```
     
 ## 6. [Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
+
    ```swift 
    func developerStatus() -> String {
      return "Always learning!"
    }
    ```
+   
 ## 7. [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
+
    ```swift 
    let add: (Int, Int) -> Int = { $0 + $1 }
    add(12, 7) // 19
    ```
+   
 ## 8. [Enumerations](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
+
    ```swift 
    enum AppError: Error {
      case decodingError(Error) 
@@ -89,6 +103,7 @@ Swift fundamentals with exercises.
    ```
    
 ## 9. [Structures and Classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
+
    ```swift 
    struct Venue {
      let address: String 
@@ -110,7 +125,6 @@ Swift fundamentals with exercises.
      // inherits all properies and methods of the Person parent class    
    }
    ```
-
 
 ## Exercises
 

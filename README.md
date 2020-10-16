@@ -26,7 +26,7 @@ Swift fundamentals with exercises.
    * Optional Binding 
    * nil-coalescing
    
-## 1. [Basic Operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
+## 2. [Basic Operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
    ```swift 
    9 % 4 // 1 
    ```
@@ -45,11 +45,11 @@ Swift fundamentals with exercises.
    * Logical operators `&&, ||, !a`
    
    
-1. [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
+## 3. [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
    ```swift 
    let char: Character = "🚀"
    ```
-1. [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
+## 4. [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
    ```swift 
    let languages = ["C", "Java", "Objective-C", "Swift", "JavaScript"]
    ```

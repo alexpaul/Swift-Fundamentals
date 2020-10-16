@@ -4,9 +4,9 @@ Swift fundamentals with exercises.
 
 > Attention developer: Read the Swift Language Guide on a topic before going onto the `Exercises` section.
 
-## Table of Contents 
+# Table of Contents 
 
-1. [The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+## 1. [The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
    ```swift 
    let swiftIntroduced = "2014"
    ```
@@ -26,7 +26,7 @@ Swift fundamentals with exercises.
    * Optional Binding 
    * nil-coalescing
    
-1. [Basic Operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
+## 1. [Basic Operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
    ```swift 
    9 % 4 // 1 
    ```

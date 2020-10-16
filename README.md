@@ -54,6 +54,31 @@ Swift fundamentals with exercises.
      case badURL(String)
      case badStatusCode(String)
    }
+   ```
+   
+1. [Structures and Classes](https://docs.swift.org/swift-book/LanguageGuide/Structures-and-Classes.html)
+   ```swift 
+   struct Venue {
+     let address: String 
+     let name: String 
+     let latitude: Double
+     let longitude: Double
+   }
+   
+   class Person {
+     let name: String 
+     let age: Int
+     init(name: String, age: Int) {
+       self.name = name 
+       self.age = age
+     }
+   }
+   
+   class Fellow: Person {
+     // inherits all properies and methods of the Person parent class    
+   }
+   ```
+
 
 ## Exercises
 

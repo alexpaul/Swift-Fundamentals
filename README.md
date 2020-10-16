@@ -47,7 +47,13 @@ Swift fundamentals with exercises.
    let add: (Int, Int) -> Int = { $0 + $1 }
    add(12, 7) // 19
    ```
-
+1. [Enumerations](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
+   ```swift 
+   enum AppError: Error {
+     case decodingError(Error) 
+     case badURL(String)
+     case badStatusCode(String)
+   }
 
 ## Exercises
 

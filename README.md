@@ -13,6 +13,7 @@ Swift fundamentals with exercises.
    ```
    
    #### Glossary
+   
    * Type Safety
    * Variables 
    * Constants 
@@ -35,6 +36,7 @@ Swift fundamentals with exercises.
    ```
    
    #### Glossary 
+   
    * Arithmetic operators: `+, *, -, /`
    * Remainder or modulo operator `%` 
    * Ternary operator `(condition) ? :`
@@ -54,6 +56,21 @@ Swift fundamentals with exercises.
    ```swift 
    let char: Character = "🚀"
    ```
+   
+   #### Glossary 
+
+   * String literal 
+   * Multi-line String 
+   * Special characters / escape characters 
+   * Sring initialization syntax
+   * Value types 
+   * Character 
+   * Concatenaton
+   * String interpolation 
+   * Unicode
+   * String.Index
+   * Substrings
+   * Prefix and Suffix
    
 ## 4. [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
 

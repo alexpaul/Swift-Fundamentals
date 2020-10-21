@@ -288,14 +288,14 @@ for word in words {
 You are given a string stored in variable `problem`. Write code that prints the longest word in the string.
 
 ```swift
-var problem = "find the longest word in the problem description"
+let problem = "find the longest word in the problem description"
 
 // Your code here
 ```
 
 Example:
 Input:
-`var problem = "find the longest word in the problem description"`
+`let problem = "find the longest word in the problem description"`
 
 Output:
 `description`
@@ -305,13 +305,24 @@ Hint: Keep track of the longest word you encounter and also keep track of its le
 <details>
  <summary>Solution</summary>
  
-```swift 
+```swift
+let problem = "find the longest word in the problem description"
+let words = problem.split(separator: " ")
+var largestWord = ""
+
+for word in words {
+  if word.count > largestWord.count {
+    largestWord = String(word)
+  }
+}
+
+print(largestWord) // description
 ```
  
 </details>
 
 ***
-## Question 20
+## Question 11
 
 Given a string in English, create a tuple containing the number of vowels and consonants.
 
@@ -325,12 +336,28 @@ let input = "Count how many vowels I have!"
  <summary>Solution</summary>
  
 ```swift 
+let vowels = Set("aeiou")
+let consonants = "bcdfghjklmnpqrstvwxyz"
+let input = "Count how many vowels I have!"
+
+var vowelsConsonantsCount: (vowels: Int, consonants: Int) = (0, 0)
+
+for char in input {
+  if vowels.contains(char) {
+    vowelsConsonantsCount.vowels += 1
+    continue
+  }
+  vowelsConsonantsCount.consonants += 1
+}
+
+print(vowelsConsonantsCount)
+// (vowels: 8, consonants: 21)
 ```
  
 </details>
 
 ***
-## Question 21
+## Question 12
 
 Given a string of words separated by a `" "`. Write code that prints out the length of the last word.
 

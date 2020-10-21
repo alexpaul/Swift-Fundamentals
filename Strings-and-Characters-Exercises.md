@@ -3,17 +3,22 @@
 ## Question 1
 
 Write code that prints out all the numbers from 1 to 10 as a single string.
-(Hint: the `String()` function can convert an Int to a String)
 
 <details>
  <summary>Solution</summary>
  
 ```swift 
+var str = ""
+for num in 1...10 {
+  str += "\(num)"
+}
+print(str) // 12345678910
 ```
  
 </details>
 
 ***
+
 ## Question 2
 
 Write code that prints out all the even numbers from 5 to 51 as a single string.
@@ -22,11 +27,18 @@ Write code that prints out all the even numbers from 5 to 51 as a single string.
  <summary>Solution</summary>
  
 ```swift 
+var str = ""
+for num in 5...51 where num % 2 == 0 {
+  str += "\(num) "
+}
+print(str)
+// 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50
 ```
  
 </details>
 
 ***
+
 ## Question 3
 
 Write code that prints out every number ending in 4 between 1 and 60 as a single string.
@@ -35,11 +47,18 @@ Write code that prints out every number ending in 4 between 1 and 60 as a single
  <summary>Solution</summary>
  
 ```swift 
+var str = ""
+for num in 1...60 where num % 10 == 4 {
+  str += "\(num) "
+}
+print(str)
+// 4 14 24 34 44 54
 ```
  
 </details>
 
 ***
+
 ## Question 4
 
 Print each character in the string `"Hello world!"`
@@ -48,14 +67,33 @@ Print each character in the string `"Hello world!"`
  <summary>Solution</summary>
  
 ```swift 
+let str = "Hello world!"
+for char in str {
+  print(char)
+}
+/*
+ H
+ e
+ l
+ l
+ o
+  
+ w
+ o
+ r
+ l
+ d
+ !
+*/
 ```
  
 </details>
 
 ***
+
 ## Question 5
 
-Print out the last character in the string below.  You cannot use the Character literal "!" (i.e you must access `myStringSeven`'s characters).
+Print out the last character in the string below. You cannot use the Character literal "!" (i.e you must access `myStringSeven`'s characters).
 
 `let myStringSeven = "Hello world!"`
 
@@ -63,148 +101,17 @@ Print out the last character in the string below.  You cannot use the Character 
  <summary>Solution</summary>
  
 ```swift 
+let myStringSeven = "Hello world!"
+
+let lastCharIndex = myStringSeven.index(before: myStringSeven.endIndex)
+print(myStringSeven[lastCharIndex]) // !
 ```
  
 </details>
 
 ***
+
 ## Question 6
-
-Write code that switches on a string, given the following conditions:
-- If the string's length is even, print out every character.
-- If the string's length is odd, print out every other character.
-
-<details>
- <summary>Solution</summary>
- 
-```swift 
-```
- 
-</details>
-
-***
-## Question 7
-
-Initialize a String with a character. Show that it is a Character, and not another String, that you're using to initialize it.
-
-<details>
- <summary>Solution</summary>
- 
-```swift 
-```
- 
-</details>
-
-***
-## Question 8
-
-Build five pairs of **canonically equivalent** strings, the first of each being a pre-composed character and the second being one that uses combinable unicode scalars. Show that they are equivalent.
-
-<details>
- <summary>Solution</summary>
- 
-```swift 
-```
- 
-</details>
-
-***
-## Question 9
-
-**Using only Unicode**, print out `"HELLO WORLD!"`
-
-<details>
- <summary>Solution</summary>
- 
-```swift 
-```
- 
-</details>
-
-***
-## Question 10
-
-**Using only Unicode**, print out your name.
-
-<details>
- <summary>Solution</summary>
- 
-```swift 
-```
- 
-</details>
-
-***
-## Question 11
-
-**Using only Unicode**, print out `"HELLO WORLD!"` in another language.
-
-<details>
- <summary>Solution</summary>
- 
-```swift 
-```
- 
-</details>
-
-***
-## Question 12
-
-Print the below flower box using the following information.
-
-- The unicode number for ⚘ is U-2698
-- The top and bottom of the box are represented by dashes and the rows are |
-- Use the terminator argument in your print statements to print on the same line.
-- Hint: It may be useful to try printing out a box of just one character to start then work your way from there.
-
-```swift
-Flower Box:
-- - - - - - - - - - -
-| ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
-| ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
-| ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
-| ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
-| ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
-| ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
-| ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
-- - - - - - - - - - -
-```
-
-<details>
- <summary>Solution</summary>
- 
-```swift 
-```
- 
-</details>
-
-***
-## Question 13
-
-Write a program that sets up a chess board using Unicode.
-
-```swift
-Chess Board:
-♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
-♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
-
-
-
-
-♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
-♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
-```
-
-<details>
- <summary>Solution</summary>
- 
-```swift 
-```
- 
-</details>
-
-***
-## Question 14
 
 You are given a string stored in the variable `aString`. Create new string named `replacedString` that contains the characters of the original string with all the occurrences of the character `"e"` replaced by `"*"`.
 
@@ -216,7 +123,7 @@ var aString = "Replace the letter e with *"
 Example:
 
 Input:
-`var aString = "Replace the letter e with *"`
+`let aString = "Replace the letter e with *"`
 
 Expected values:
 `replacedString = "R*plac* th* l*tt*r * with *"`
@@ -225,17 +132,29 @@ Expected values:
  <summary>Solution</summary>
  
 ```swift 
+let aString = "Replace the letter e with *"
+
+var replacedString = ""
+for char in aString {
+  if char == "e" {
+    replacedString += "*"
+    continue
+  }
+  replacedString.append(char)
+}
+
+print(replacedString) // R*plac* th* l*tt*r * with *
 ```
  
 </details>
 
 ***
-## Question 15
+## Question 7
 
-You are given a string stored in variable `aString`. Create a new string called `reverse` that contains the original string in reverse order. Print the reversed string.
+You are given a string stored in variable `aString`. Create a new string called `reverse` that contains the original string in reverse order. Print the reversed string. You cannot used built-in reverse. 
 
 ```swift
-var aString = "this string has 29 characters"
+let aString = "this string has 29 characters"
 var reverse = ""
 
 // Your code here
@@ -243,7 +162,7 @@ var reverse = ""
 
 Example:
 Input:
-`var aString = "Hello"`
+`let aString = "Hello"`
 
 Output:
 `"olleH"`
@@ -252,63 +171,37 @@ Output:
  <summary>Solution</summary>
  
 ```swift 
+let aString = "Hello"
+var reverse = ""
+for char in aString {
+  reverse = String(char) + reverse
+}
+print(reverse) // olleH
 ```
  
 </details>
 
 
-## Question 16. Mad-Libs! Add a value to the declared variables below in playgrounds. Insert the variables (already in correct order) inside the stringmadLib and print. 
-
-```swift
-
-
-var geographicLocation: String
-var adjective1: String
-var pluralNoun1: String
-var adjective2: String
-var pluralNoun2: String
-var number1: Int
-var number2: Int
-var articleOfClothing: String
-
-var madLib = "Here is tomorrow's weather report for \()
-and vicinity. Early tomorrow, a \()-front will
-collide with a mass of hot \() moving from the
-north. This means we can expect \() winds and
-occasional \() by late afternoon. Wind velocity will
-be \() miles an hour, and the high temperature should
-be around \() degrees. So, if you're going out, you had
-better plan on wearing your \()".
-```
-
-<details>
- <summary>Solution</summary>
- 
-```swift 
-```
- 
-</details>
-
-## Question 17
+## Question 8
 
 You are given a string stored in variable `aString`. Print `true` if `aString` is a palindrome, and `false` otherwise. A **palindrome** is a string which reads the same backward or forward.
 
 ```swift
-let aString = "anutforajaroftuna"
+let str1 = "anutforajaroftuna"
 
 // Your code here
 ```
 
 Example 1:
 Input:
-`var aString = "anutforajaroftuna"`
+`let str1 = "anutforajaroftuna"`
 
 Output:
 `true`
 
 Example 2:
 Input:
-`var aString = "Hello"`
+`let str2 = "Hello"`
 
 Output:
 `false`
@@ -317,24 +210,33 @@ Output:
  <summary>Solution</summary>
  
 ```swift 
+let str1 = "anutforajaroftuna"
+let str2 = "Hello"
+var reverse = ""
+
+for char in str1 {
+  reverse = String(char) + reverse
+}
+
+print(reverse == str1) // true
 ```
  
 </details>
 
 ***
-## Question 18
+## Question 9
 
 You are given a string stored in variable `problem`. Write code so that you print each word of the string on a new line.
 
 ```swift
-var problem = "split this string into words and print them on separate lines"
+let problem = "split this string into words and print them on separate lines"
 
 // Your code
 ```
 
 Example:
 Input:
-`var problem ="split this string into words and print them on separate lines"`
+`let problem ="split this string into words and print them on separate lines"`
 
 Output:
 ```swift
@@ -355,12 +257,33 @@ lines
  <summary>Solution</summary>
  
 ```swift 
+let problem = "split this string into words and print them on separate lines"
+
+let words = problem.split(separator: " ")
+
+for word in words {
+  print(word)
+}
+
+/*
+ split
+ this
+ string
+ into
+ words
+ and
+ print
+ them
+ on
+ separate
+ lines
+*/
 ```
  
 </details>
 
 ***
-## Question 19
+## Question 10
 
 You are given a string stored in variable `problem`. Write code that prints the longest word in the string.
 

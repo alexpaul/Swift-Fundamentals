@@ -137,7 +137,7 @@ Output:
 `"olleH"`
 
 
-## 16. Mad-Libs! Add a value to the declared variables below in playgrounds. Insert the variables (already in correct order) inside the stringmadLib and print. 
+## Question 16. Mad-Libs! Add a value to the declared variables below in playgrounds. Insert the variables (already in correct order) inside the stringmadLib and print. 
 
 ```swift
 
@@ -161,7 +161,7 @@ be around \() degrees. So, if you're going out, you had
 better plan on wearing your \()".
 ```
 
-## Question 16
+## Question 17
 
 You are given a string stored in variable `aString`. Print `true` if `aString` is a palindrome, and `false` otherwise. A **palindrome** is a string which reads the same backward or forward.
 
@@ -186,7 +186,7 @@ Output:
 `false`
 
 ***
-## Question 17
+## Question 18
 
 You are given a string stored in variable `problem`. Write code so that you print each word of the string on a new line.
 
@@ -216,7 +216,7 @@ lines
 ```
 
 ***
-## Question 18
+## Question 19
 
 You are given a string stored in variable `problem`. Write code that prints the longest word in the string.
 
@@ -236,7 +236,7 @@ Output:
 Hint: Keep track of the longest word you encounter and also keep track of its length.
 
 ***
-## Question 19
+## Question 20
 
 Given a string in English, create a tuple containing the number of vowels and consonants.
 
@@ -247,7 +247,7 @@ let input = "Count how many vowels I have!"
 ```
 
 ***
-## Question 20
+## Question 21
 
 Given a string of words separated by a `" "`. Write code that prints out the length of the last word.
 
@@ -260,7 +260,7 @@ Output: `7`
 
 ***
 
-## Question 21
+## Question 22
 
 Given a string `testString` create a new variable called `condensedString` that has any consecutive spaces in `testString` replaced with a single space.
 
@@ -270,7 +270,7 @@ let testString = "  How   about      thesespaces  ?  "
 ```
 
 ***
-## Question 22
+## Question 23
 
 Given a string with multiple words. Reverse the string word by word.
 
@@ -281,7 +281,7 @@ Sample Input: `"Swift is the best language"`
 Sample Output: `"language best the is Swift"`
 
 ***
-## Question 23
+## Question 24
 
 Given a string with multiple words. Write code that prints how many of them are palindromes.
 
@@ -292,7 +292,7 @@ Sample Input: `"danaerys dad cat civic bottle"`
 Sample Output: `2`
 
 ***
-## Question 24
+## Question 25
 
 You are given a string representing an **attendance record** for a student. The record only contains the following three characters:
 
@@ -311,7 +311,7 @@ Sample Input: `"PPALLP"`
 Sample Output: `true`
 
 ***
-## Question 25
+## Question 26
 
 Given a tuple with two strings. The first string is a **ransom note**, the second string being the characters from a magazine. Determine whether or not you can construct the ransom note using the characters from the magazine.
 

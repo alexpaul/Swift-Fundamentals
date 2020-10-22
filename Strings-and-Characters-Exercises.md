@@ -515,6 +515,8 @@ Sample Output: `true`
 <details>
  <summary>Solution</summary>
  
+#### Solution 1
+
 ```swift 
 let attendance = "PPALLP"
 
@@ -544,6 +546,17 @@ for char in attendance {
 }
 
 print(isRewarded) // true
+```
+
+#### Solution 2 
+
+```swift
+func awardAttendance(_ str: String) -> Bool {
+  if str.contains("LLL") || (str.filter { $0 == "A" }.count > 1) {
+    return false
+  }
+  return true
+}
 ```
  
 </details>

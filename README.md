@@ -148,6 +148,7 @@ Swift fundamentals with exercises.
 Complete the exercise in Swift Playground or an online IDE like [repl.it](https://repl.it) . 
 
 1. [The Basics, Basic Operators](https://github.com/alexpaul/Swift-Fundamentals/blob/main/The-Basics-Basic-Operators-Exercises.md)
+1. [Strings and Characters](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Strings-and-Characters-Exercises.md)
 
 
 ## Projects 

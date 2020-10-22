@@ -342,7 +342,7 @@ let input = "Count how many vowels I have!"
 
 var vowelsConsonantsCount: (vowels: Int, consonants: Int) = (0, 0)
 
-for char in input {
+for char in input.lowercased() {
   if vowels.contains(char) {
     vowelsConsonantsCount.vowels += 1
     continue

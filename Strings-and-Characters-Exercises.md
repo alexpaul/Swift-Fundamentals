@@ -337,7 +337,7 @@ let input = "Count how many vowels I have!"
  
 ```swift 
 let vowels = Set("aeiou")
-let consonants = "bcdfghjklmnpqrstvwxyz"
+let consonants = Set("bcdfghjklmnpqrstvwxyz")
 let input = "Count how many vowels I have!"
 
 var vowelsConsonantsCount: (vowels: Int, consonants: Int) = (0, 0)
@@ -347,11 +347,13 @@ for char in input {
     vowelsConsonantsCount.vowels += 1
     continue
   }
-  vowelsConsonantsCount.consonants += 1
+  if consonants.contains(char) {
+    vowelsConsonantsCount.consonants += 1
+  }
 }
 
 print(vowelsConsonantsCount)
-// (vowels: 8, consonants: 21)
+// (vowels: 8, consonants: 13)
 ```
  
 </details>

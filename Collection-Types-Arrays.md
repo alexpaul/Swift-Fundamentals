@@ -12,6 +12,11 @@ Then, using array subscripting and string interpolation, print out the String `"
   <summary>Solution</summary> 
   
 ```swift 
+var colors = ["orange", "red", "yellow", "turquoise", "lavender"]
+
+print("\(colors[0]), \(colors[2]) and \(colors[colors.count - 1]) are some of my favorite colors")
+
+// orange, yellow and lavender are some of my favorite colors
 ```
   
 </details> 
@@ -29,6 +34,9 @@ Remove "Illinois" and "Kansas" from the array below.
   <summary>Solution</summary> 
   
 ```swift 
+var westernStates = ["California", "Oregon", "Washington", "Idaho", "Illinois", "Kansas"]
+westernStates = westernStates.dropLast(2)
+print(westernStates) // ["California", "Oregon", "Washington", "Idaho"]
 ```
   
 </details> 
@@ -47,6 +55,25 @@ Iterate through the array below. For each state, print out the name of the state
   <summary>Solution</summary> 
   
 ```swift 
+let moreStates = ["Hawaii", "New Mexico", "Alaska", "Montana", "Texas", "New York", "Florida"]
+
+for state in moreStates {
+  if state == "Hawaii" {
+    print("\(state) is NOT in the continental United States.")
+  } else {
+    print("\(state) is in the continental United States.")
+  }
+}
+
+/*
+ Hawaii is NOT in the continental United States.
+ New Mexico is in the continental United States.
+ Alaska is in the continental United States.
+ Montana is in the continental United States.
+ Texas is in the continental United States.
+ New York is in the continental United States.
+ Florida is in the continental United States.
+*/
 ```
   
 </details> 
@@ -60,15 +87,51 @@ Print out how many non-whitespace characters are in `myString`:
 
 `let myString = "This is good practice with Strings!"`
 
+<details> 
+  <summary>Solution</summary> 
+  
+```swift 
+let myString = "This is good practice with Strings!"
+
+var nonWhitespaceCount = 0
+for char in myString {
+  if char != " " {
+    nonWhitespaceCount += 1
+  }
+}
+print("There are \(nonWhitespaceCount) non-whitespace characters in myString")
+// There are 30 non-whitespace characters in myString
+```
+  
+</details> 
+
 Iterate through the array below. For each sentence, print out how many non-whitespace characters are in it.
 
 `let myFavoriteQuotes = ["To be or not to be, that is the question.", "The only source of knowledge is experience.", "Mr. Gorbachev, tear down this wall!", "Four score and twenty years ago..."]`
-
 
 <details> 
   <summary>Solution</summary> 
   
 ```swift 
+let myFavoriteQuotes = ["To be or not to be, that is the question.", "The only source of knowledge is experience.", "Mr. Gorbachev, tear down this wall!", "Four score and twenty years ago..."]
+
+
+for str in myFavoriteQuotes {
+  var nonWhitespaceCount = 0
+  for char in str {
+    if char != " " {
+      nonWhitespaceCount += 1
+    }
+  }
+  print("There are \(nonWhitespaceCount) non-whitespace characters in myString")
+}
+
+/*
+ There are 32 non-whitespace characters in myString
+ There are 37 non-whitespace characters in myString
+ There are 30 non-whitespace characters in myString
+ There are 29 non-whitespace characters in myString
+*/
 ```
   
 </details> 

@@ -1,7 +1,5 @@
 # Collection Types - Arrays Exercises
 
-# Part 1
-
 ## Question 1
 
 Create an array of strings called `colors` that contain "orange", "red", "yellow", "turquoise", and "lavender".

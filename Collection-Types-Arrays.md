@@ -303,13 +303,25 @@ let arrayOfNumbers: [Int] = (1...100).map{ _ in Int.random(in: 0...200)}.map{Int
 //This creates an array of 100 numbers in between 0 and 200.  For now, you don't need to worry about how it does that.
 ```
 
-
 <details> 
   <summary>Solution</summary> 
   
 ```swift 
+let arrayOfNumbers: [Int] = (1...100).map{ _ in Int.random(in: 0...200)}.map{Int($0)}
+
+print(arrayOfNumbers)
+
+var largestValue = arrayOfNumbers[0]
+for num in arrayOfNumbers {
+  if num > largestValue {
+    largestValue = num
+  }
+}
+
+print("largest value is \(largestValue)")
+// largest value is 199
 ```
-  
+
 </details> 
 
 ***
@@ -330,6 +342,19 @@ let arrayOfNumbers: [Int] = (1...100).map{ _ in Int.random(in: 0...200)}.map{Int
   <summary>Solution</summary> 
   
 ```swift 
+let arrayOfNumbers: [Int] = (1...100).map{ _ in Int.random(in: 0...200)}.map{Int($0)}
+
+print(arrayOfNumbers)
+
+var smallestValue = arrayOfNumbers[0]
+for num in arrayOfNumbers {
+  if num < smallestValue {
+    smallestValue = num
+  }
+}
+
+print("smallest value is \(smallestValue)")
+// smallest value is 0
 ```
   
 </details> 
@@ -348,6 +373,15 @@ Iterate through `secondListOfNumbers`, and print out all the odd numbers.
   <summary>Solution</summary> 
   
 ```swift 
+var secondListOfNumbers = [19, 13, 14, 19, 101, 10000, 141, 404]
+
+for num in secondListOfNumbers {
+  if num % 2 == 1 {
+    print(num, terminator: " ")
+  }
+}
+
+// 19 13 19 101 141
 ```
   
 </details> 
@@ -365,6 +399,14 @@ Iterate through `thirdListOfNumbers`, and print out the sum.
   <summary>Solution</summary> 
   
 ```swift 
+var thirdListOfNumbers = [11, 26, 49, 61, 25, 40, 74, 3, 22, 23]
+var sum = 0
+
+for num in thirdListOfNumbers {
+  sum += num
+}
+
+print(sum) // 334
 ```
   
 </details> 

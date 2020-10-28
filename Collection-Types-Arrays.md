@@ -745,11 +745,28 @@ Print out the sum of the diagonals of `myMatrix`.
 
 `var myMatrix = [[10, 14, 12], [91, 1, 9], [31, 3, 21]]`
 
-
 <details> 
   <summary>Solution</summary> 
   
 ```swift 
+var myMatrix = [[10, 14, 12], [91, 1, 9], [31, 3, 21]]
+
+var leftToRightDiagonal = 0
+var rightToLeftDiagonal = 0
+
+for i in 0..<myMatrix.count {
+  for j in 0..<myMatrix.count {
+    if i == j {
+      leftToRightDiagonal += myMatrix[i][j]
+    }
+    if (i + j) == myMatrix.count - 1 {
+      rightToLeftDiagonal += myMatrix[i][j]
+    }
+  }
+}
+
+print("sum of diagonals is \(leftToRightDiagonal + rightToLeftDiagonal)")
+// sum of diagonals is 76
 ```
   
 </details> 
@@ -762,13 +779,35 @@ Using for loops, rotate `matrixToRotate` 90 degrees.
 
 var matrixToRotate = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-![Matrix Rotation](images/rotated_matrix.jpeg)
-
+```swift 
+/*
+ [
+ [1, 2, 3],     [7, 4, 1]
+ [4, 5, 6],   =>[8, 5, 2]
+ [7, 8, 9]]     [9, 6, 3]
+ */
+```
 
 <details> 
   <summary>Solution</summary> 
   
 ```swift 
+var matrixToRotate = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+var matrixCount = matrixToRotate.count
+
+for i in 0..<matrixCount / 2 {
+  for j in i..<matrixCount - i - 1 {
+    let temp = matrixToRotate[i][j]
+    matrixToRotate[i][j] = matrixToRotate[matrixCount - j - 1][i]
+    matrixToRotate[matrixCount - j - 1][i] = matrixToRotate[matrixCount - i - 1][matrixCount - j - 1]
+    matrixToRotate[matrixCount - i - 1][matrixCount - j - 1] = matrixToRotate[j][matrixCount - i - 1]
+    matrixToRotate[j][matrixCount - i - 1] = temp
+  }
+}
+
+print(matrixToRotate)
+// [[7, 4, 1], [8, 5, 2], [9, 6, 3]]
 ```
   
 </details> 

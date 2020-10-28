@@ -1,4 +1,4 @@
-# Collection Types - Arrays Exercises
+# Collection Types - Array Exercises
 
 ## Question 1
 

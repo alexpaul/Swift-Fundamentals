@@ -134,7 +134,6 @@ for str in myFavoriteQuotes {
   
 </details> 
 
-
 ***
 
 
@@ -152,6 +151,24 @@ var basket = [String]()
   <summary>Solution</summary> 
   
 ```swift 
+var garden = ["dirt","🌷","dirt","🌷","dirt","dirt","🌷","dirt","🌷","dirt"]
+var basket = [String]()
+
+
+for (index, str) in garden.enumerated() {
+  if str == "🌷" {
+    basket.append("🌷")
+    garden[index] = "dirt"
+  }
+}
+
+print(garden)
+print("The basket now has \(basket.count) flowers 🌷")
+
+/*
+ ["dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt"]
+ The basket now has 4 flowers 🌷
+*/
 ```
   
 </details> 

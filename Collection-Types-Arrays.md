@@ -425,6 +425,16 @@ Iterate through `thirdListOfNumbers`, and print out the sum of all the even numb
   <summary>Solution</summary> 
   
 ```swift 
+var thirdListOfNumbers = [11, 26, 49, 61, 25, 40, 74, 3, 22, 23]
+var sum = 0
+
+for num in thirdListOfNumbers {
+  if num % 2 == 0 {
+    sum += num
+  }
+}
+
+print(sum) // 162 
 ```
   
 </details> 
@@ -435,6 +445,10 @@ Iterate through `thirdListOfNumbers`, and print out the sum of all the even numb
 ## Question 13
 
 Append every Int that appears in both `listOne` and `listTwo` to the `sharedElements` array. Then print **how many Ints** are shared.
+
+Assumption: both arrays are of equal length. 
+
+Constraints: you cannot use Sets
 
 ```swift
 var listOne = [28, 64, 7, 96, 13, 32, 94, 11, 80, 68]
@@ -447,6 +461,20 @@ var sharedElements = [Int]()
   <summary>Solution</summary> 
   
 ```swift 
+var listOne = [28, 64, 7, 96, 13, 32, 94, 11, 80, 68]
+var listTwo = [18, 94, 48, 6, 42, 68, 79, 76, 13, 7]
+var sharedElements = [Int]()
+
+
+for num in listOne {
+  if listTwo.contains(num) {
+    sharedElements.append(num)
+  }
+}
+
+print("\(sharedElements) \(sharedElements.count) are shared")
+
+// [7, 13, 94, 68] 4 are shared
 ```
   
 </details> 
@@ -456,6 +484,8 @@ var sharedElements = [Int]()
 ## Question 14
 
 Write code such that `noDupeList` has all the same Ints as `dupeFriendlyList`, but has no more than one of each Int.
+
+Constraints: you cannot use Sets
 
 ```swift
 var dupeFriendlyList = [4,2,6,2,2,6,4,9,2,1]
@@ -467,6 +497,16 @@ var noDupeList: [Int] = []
   <summary>Solution</summary> 
   
 ```swift 
+var dupeFriendlyList = [4,2,6,2,2,6,4,9,2,1]
+var noDupeList: [Int] = []
+
+for num in dupeFriendlyList {
+  if !noDupeList.contains(num) {
+    noDupeList.append(num)
+  }
+}
+
+print(noDupeList)
 ```
   
 </details> 
@@ -478,13 +518,27 @@ var noDupeList: [Int] = []
 
 Find the second smallest number in an Array of Ints
 
-`let arrayOfNumbers: [Int] = (1...100).map{ _ in Int.random(in: 0...200)}.map{Int($0)}`
-
+`let arrayOfNumbers = [-6, 13, 0, 34, 0, 45, -12, 9, 11, 4]`
 
 <details> 
   <summary>Solution</summary> 
   
 ```swift 
+let arrayOfNumbers = [-6, 13, 0, 34, 0, 45, -12, 9, 11, 4]
+
+var secondSmallest = Int.max
+var smallest = Int.max
+
+for num in arrayOfNumbers {
+  if num < smallest {
+    secondSmallest = smallest
+    smallest = num
+  } else if num < secondSmallest && num != smallest {
+    secondSmallest = num
+  }
+}
+
+print(smallest, secondSmallest) // -12, -6
 ```
   
 </details> 

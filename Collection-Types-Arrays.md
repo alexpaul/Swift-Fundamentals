@@ -192,6 +192,27 @@ The below array represents an unfinished batting lineup for a baseball team. **Y
   <summary>Solution</summary> 
   
 ```swift 
+var battingLineup = ["Reyes", "Jeter", "Ramirez", "Pujols","Griffey","Thomas","Jones", "Rodriguez"]
+
+battingLineup.append("Suzuki")
+
+for (index, player) in battingLineup.enumerated() {
+  if player == "Jeter" {
+    battingLineup[index] = "Tejada"
+  }
+  if player == "Thomas" {
+    battingLineup[index] = "Guerrero"
+  }
+}
+
+if let index = battingLineup.firstIndex(of: "Reyes") {
+  battingLineup.remove(at: index)
+  battingLineup.insert("Reyes", at: 7)
+}
+
+print(battingLineup)
+
+// ["Tejada", "Ramirez", "Pujols", "Griffey", "Guerrero", "Jones", "Rodriguez", "Reyes", "Suzuki"]
 ```
   
 </details> 
@@ -221,6 +242,25 @@ target = 32
 //true
 ```
 
+<details> 
+  <summary>Solution</summary> 
+  
+```swift 
+let numbers = [4,2,6,73,32,4,2,1]
+let target = 32
+
+var targetNumberFound = false
+for num in numbers {
+  if num == target {
+    targetNumberFound = true
+  }
+}
+
+print(targetNumberFound) // true
+```
+  
+</details> 
+
 Ex. 2
 
 ```swift
@@ -235,6 +275,17 @@ target = 3
   <summary>Solution</summary> 
   
 ```swift 
+let numbers = [32459,2,4,5,1,4,2,1]
+let target = 3
+
+var targetNumberFound = false
+for num in numbers {
+  if num == target {
+    targetNumberFound = true
+  }
+}
+
+print(targetNumberFound) // true
 ```
   
 </details> 

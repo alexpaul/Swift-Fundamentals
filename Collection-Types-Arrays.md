@@ -557,6 +557,14 @@ Find the sum of all the multiples of 3 or 5 below 1000.
   <summary>Solution</summary> 
   
 ```swift 
+var multiples = [Int]()
+for num in 1..<1000 {
+  if num % 3 == 0 || num % 5 == 0 {
+    multiples.append(num)
+  }
+}
+
+print(multiples)
 ```
   
 </details> 
@@ -577,6 +585,21 @@ var someRepeatsAgain = [25,11,30,31,50,28,4,37,13,20,24,38,28,14,44,33,7,43,39,3
   <summary>Solution</summary> 
   
 ```swift 
+let someRepeatsAgain = [25,11,30,31,50,28,4,37,13,20,24,38,28,14,44,33,7,43,39,35,36,42,1,40,7,14,23,46,21,39,11,42,12,38,41,48,20,23,29,24,50,41,38,23,11,30,50,13,13,16,10,8,3,43,10,20,28,39,24,36,21,13,40,25,37,39,31,4,46,20,38,2,7,11,11,41,45,9,49,31,38,23,41,16,49,29,14,6,6,11,5,39,13,17,43,1,1,15,25]
+
+var dupes = [Int]()
+
+for num in someRepeatsAgain {
+  let results = someRepeatsAgain.filter { $0 == num }
+  if results.count > 1 {
+    if !dupes.contains(num) {
+      dupes.append(num)
+    }
+  }
+}
+
+print(dupes)
+// [25, 11, 30, 31, 50, 28, 4, 37, 13, 20, 24, 38, 14, 7, 43, 39, 36, 42, 1, 40, 23, 46, 21, 41, 29, 16, 10, 49, 6]
 ```
   
 </details> 
@@ -703,9 +726,9 @@ Output: `[-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10,13]`
 
 ## Question 24
 
-Given an array of Characters, create a String ignoring and uppercase Characters and spaces.  Then uppercase every other character of the String.
+Given an array of Characters, create a String ignoring any uppercase Characters and spaces.  Then uppercase every other character of the String.
 
-Input: `let arr: [Character] = ["a", "p","P","l","E"," ","S","a","u","C,"e"]`
+Input: `let arr: [Character] = ["a", "p","P","l","E"," ","S","a","u","C","e"]`
 
 Output: `"ApLeAuE"`
 
@@ -732,6 +755,20 @@ Print out each element in `myMatrix`
   <summary>Solution</summary> 
   
 ```swift 
+var myMatrix = [[10, 14, 12], [91, 1, 9], [31, 3, 21]]
+
+for i in 0..<myMatrix.count {
+  for j in 0..<myMatrix.count {
+    print(myMatrix[i][j], terminator: " ")
+  }
+  print()
+}
+
+/*
+ 10 14 12
+ 91 1 9
+ 31 3 21
+*/
 ```
   
 </details> 

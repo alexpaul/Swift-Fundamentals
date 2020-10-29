@@ -149,6 +149,7 @@ Complete the exercise in Swift Playground or an online IDE like [repl.it](https:
 
 1. [The Basics, Basic Operators](https://github.com/alexpaul/Swift-Fundamentals/blob/main/The-Basics-Basic-Operators-Exercises.md)
 1. [Strings and Characters](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Strings-and-Characters-Exercises.md)
+1. [Collection Types - Arrays](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Collection-Types-Arrays.md)
 
 
 ## Projects 

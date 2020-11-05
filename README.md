@@ -2,7 +2,7 @@
 
 Swift fundamentals with exercises.
 
-> Attention developer: Read the Swift Language Guide on a topic before going onto the `Exercises` section.
+> Attention developer: Please read the Swift Language Guide on a topic or watch the YouTube complimentary video before going onto the `Exercises` section below.
 
 [YouTube Playlist - Swift Fundamentals](https://www.youtube.com/watch?v=Gd_de-TNAwQ&list=PLjdVqs-1R8wHFc6iVGkXJgEZ6BRW-S3L_)
 

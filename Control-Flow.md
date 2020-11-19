@@ -699,3 +699,9 @@ switch sum {
 </details> 
 
 ***
+
+## Question 16 
+
+FizzBuzz
+
+[LeetCode](https://leetcode.com/problems/fizz-buzz/)

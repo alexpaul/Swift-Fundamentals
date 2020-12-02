@@ -155,6 +155,7 @@ Complete the exercise in Swift Playground or an online IDE like [repl.it](https:
 1. [Collection Types - Dictionaries](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Collection-Types-Dictionaries.md)
 1. [Collection Types - Sets](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Collection-Types-Sets.md)
 1. [Control Flow](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Control-Flow.md)
+1. [Optionals](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Optionals.md)
 
 
 ## Projects 

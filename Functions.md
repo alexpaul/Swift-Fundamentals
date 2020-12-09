@@ -328,6 +328,7 @@ But for multiples of three it should output “Fizz” instead of the number and
 ```swift
 // Example 
 
+/*
 n = 15,
 
 Return:
@@ -348,6 +349,7 @@ Return:
     "14",
     "FizzBuzz"
 ]
+*/
 ```
 
 <details> 

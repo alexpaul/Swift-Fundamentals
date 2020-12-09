@@ -374,6 +374,9 @@ func fizzBuzz(_ n: Int) -> [String] {
   }
   return arr
 } 
+
+print(fizzBuzz(9)) // ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz"]
+print(fizzBuzz(15)) // ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
 ```
 
 </details> 

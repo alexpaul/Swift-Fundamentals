@@ -65,7 +65,7 @@ print(smallest(of: 8.0, and: 3.0)) // 3.0
 
 ## Question 3.
 
-Write a function named `smallestValue(in:)` that takes in an array of `Double`s and returns the smallest `Double`
+Write a function named `smallestValue(in:)` that takes in an array of `Double`s and returns the smallest `Double`. Don't use `.min()`
 
 ```swift 
 // input: [1.0,2,3,4,5,5]

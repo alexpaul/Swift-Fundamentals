@@ -80,6 +80,14 @@ Swift fundamentals with exercises.
    let languages = ["C", "Java", "Objective-C", "Swift", "JavaScript"]
    ```
    
+     
+   #### Glossary
+   
+   * Array
+   * Dictionary
+   * Set
+   * enumerated()
+   
 ## 5. [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
 
    ```swift

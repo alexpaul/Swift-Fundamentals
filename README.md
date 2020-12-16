@@ -157,6 +157,7 @@ Complete the exercise in Swift Playground or an online IDE like [repl.it](https:
 1. [Control Flow](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Control-Flow.md)
 1. [Optionals](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Optionals.md)
 1. [Functions](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Functions.md)
+1. [Closures](https://github.com/alexpaul/Swift-Fundamentals/blob/main/Closures.md)
 
 
 ## Projects 

@@ -84,6 +84,7 @@ Swift fundamentals with exercises.
    #### Glossary
    
    * Array
+   * Iterate 
    * Dictionary
    * Set
    * enumerated()
@@ -108,6 +109,8 @@ Swift fundamentals with exercises.
    #### Glossary
    
    * switch 
+   * control transfer statements: continue, break, fallthrough
+   * labeled statements 
    * for-in loop 
    * while 
    * repeat-while 
@@ -132,6 +135,7 @@ Swift fundamentals with exercises.
    * guard 
    * return 
    * parameter 
+   * implicit return 
    * argument 
    
 ## 7. [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
@@ -146,7 +150,11 @@ Swift fundamentals with exercises.
    
    * trailing closure syntax 
    * shorthand-syntax
-   * capture list 
+   * capturing values 
+   * reference type 
+   * @escaping closure 
+   * implicit return 
+   * multiple trailing closures 
 
    
 ## 8. [Enumerations](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)

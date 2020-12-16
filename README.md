@@ -103,6 +103,16 @@ Swift fundamentals with exercises.
      input -= 1
    } while input > 0
    ```
+   
+     
+   #### Glossary
+   
+   * switch 
+   * for-in loop 
+   * while 
+   * repeat-while 
+   * iterate 
+   * enumerated()
     
 ## 6. [Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
 
@@ -112,12 +122,32 @@ Swift fundamentals with exercises.
    }
    ```
    
+     
+   #### Glossary
+   
+   * input 
+   * output 
+   * variadic parameters 
+   * in-out parameters 
+   * guard 
+   * return 
+   * parameter 
+   * argument 
+   
 ## 7. [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
 
    ```swift 
    let add: (Int, Int) -> Int = { $0 + $1 }
    add(12, 7) // 19
    ```
+   
+     
+   #### Glossary
+   
+   * trailing closure syntax 
+   * shorthand-syntax
+   * capture list 
+
    
 ## 8. [Enumerations](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
 

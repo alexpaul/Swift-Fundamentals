@@ -156,7 +156,8 @@ Swift fundamentals with exercises.
    * implicit return 
    * multiple trailing closures 
    
-   [Closures code examples](https://repl.it/@alexpaul/Closures#main.swift)
+   1. [Vidoe: Closures](https://youtu.be/Q0fahJeV4Zo)
+   2. [Closures code examples](https://repl.it/@alexpaul/Closures#main.swift)
 
    
 ## 8. [Enumerations](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)

@@ -155,6 +155,8 @@ Swift fundamentals with exercises.
    * @escaping closure 
    * implicit return 
    * multiple trailing closures 
+   
+   [Video code link](https://repl.it/@alexpaul/Closures#main.swift)
 
    
 ## 8. [Enumerations](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)

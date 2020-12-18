@@ -77,6 +77,8 @@ Swift fundamentals with exercises.
    * Substrings
    * Prefix and Suffix
    
+   [Video - Strings and Characters](https://youtu.be/VTES2xGtS1s)
+   
 ## 4. [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
 
    ```swift 

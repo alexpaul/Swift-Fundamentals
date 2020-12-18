@@ -54,7 +54,7 @@ Swift fundamentals with exercises.
    * One-sided range 
    * Logical operators `&&, ||, !a`
    
-   [Swift Basic Operators](https://youtu.be/Y2ThBhbc71Q)
+   [Video - Swift Basic Operators](https://youtu.be/Y2ThBhbc71Q)
    
 ## 3. [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
 

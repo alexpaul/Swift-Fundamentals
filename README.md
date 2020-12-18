@@ -31,6 +31,8 @@ Swift fundamentals with exercises.
    * Optional Binding 
    * nil-coalescing
    
+   [Video: Swift, The Basics](https://youtu.be/wrtuio49fHM)
+   
 ## 2. [Basic Operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
 
    ```swift 

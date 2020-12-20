@@ -84,6 +84,8 @@ Write a function called `largestValue(in:)` that finds the largest `Int` in an a
 let moreNumbers = [4, 7, 1, 9, 6, 5, 6, 9]
 ```
 
+Longer form solution 
+
 <details> 
   <summay>Solution</summary> 
   
@@ -97,6 +99,22 @@ func largestValue(in numbers: [Int]) -> Int {
     return currentValue
   }
   return result
+}
+
+let moreNumbers = [4, 7, 1, 9, 6, 5, 6, 9]
+
+print(largestValue(in: moreNumbers)) // 9
+```
+</details> 
+
+Shorthand syntax Solution
+
+<details> 
+  <summay>Solution</summary> 
+  
+```swift 
+func largestValue(in numbers: [Int]) -> Int {
+  return arr.reduce(0) { return $0 > $1 ? $0 : $1 }  
 }
 
 let moreNumbers = [4, 7, 1, 9, 6, 5, 6, 9]

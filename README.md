@@ -94,6 +94,8 @@ Swift fundamentals with exercises.
    * Set
    * enumerated()
    
+   [Vdeo - Arrays](https://youtu.be/nV8yvXoJOBo)
+   
 ## 5. [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
 
    ```swift

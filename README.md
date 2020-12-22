@@ -96,6 +96,7 @@ Swift fundamentals with exercises.
    
    1. [Video - Arrays](https://youtu.be/nV8yvXoJOBo)
    2. [Video - Sets](https://youtu.be/ug2RYDrJnuo)
+   3. [Video - Dictionaries](https://youtu.be/Gd_de-TNAwQ)
    
 ## 5. [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
 

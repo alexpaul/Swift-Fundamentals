@@ -125,6 +125,9 @@ Swift fundamentals with exercises.
    * repeat-while 
    * iterate 
    * enumerated()
+   
+   1. [Video: Control Flow](https://youtu.be/AWnnAeK18NI)
+   2. [Control Flow code examples](https://repl.it/@alexpaul/Control-Flow#main.swift)
     
 ## 6. [Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
 
@@ -146,6 +149,9 @@ Swift fundamentals with exercises.
    * parameter 
    * implicit return 
    * argument 
+   
+   1. [Video: Functions](https://youtu.be/E3lmXVUdj38)
+   2. [Functions code examples](https://repl.it/@alexpaul/Functions#main.swift)
    
 ## 7. [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
 

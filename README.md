@@ -194,6 +194,14 @@ Swift fundamentals with exercises.
    }
    ```
    
+   #### Glossary
+   
+   * `CaseIterable`
+   * Associated Values
+   * Raw Values 
+   * Implicitly assigned Raw Values 
+
+   
 ## 9. [Structures and Classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
 
    ```swift 

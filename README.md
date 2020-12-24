@@ -95,9 +95,17 @@ Swift fundamentals with exercises.
    * Set
    * enumerated()
    
+   #### Arrays
    1. [Video - Arrays](https://youtu.be/nV8yvXoJOBo)
-   2. [Video - Sets](https://youtu.be/ug2RYDrJnuo)
-   3. [Video - Dictionaries](https://youtu.be/Gd_de-TNAwQ)
+   2. [Arrays code examples](https://repl.it/@alexpaul/Collection-Types-Arrays#main.swift)
+   
+   #### Sets
+   1. [Video - Sets](https://youtu.be/ug2RYDrJnuo)
+   2. [Sets code examples](https://repl.it/@alexpaul/Collection-Types-Sets#main.swift)
+   
+   #### Dictionaries
+   1. [Video - Dictionaries](https://youtu.be/Gd_de-TNAwQ)
+   2. [Dictionaries code examples](https://repl.it/@alexpaul/Collection-Types-Dictionaries#main.swift)
    
 ## 5. [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
 

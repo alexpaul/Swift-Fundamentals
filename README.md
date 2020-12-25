@@ -226,7 +226,7 @@ Swift fundamentals with exercises.
    }
    ```
 
-# 10. Propeeties
+# 10. Properties
 
 # 11. Methods
 

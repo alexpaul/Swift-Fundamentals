@@ -226,6 +226,10 @@ Swift fundamentals with exercises.
    }
    ```
 
+# 10. Propeeties
+
+# 11. Methods
+
 ## Exercises
 
 Complete the exercise in Swift Playground or an online IDE like [repl.it](https://repl.it) . 

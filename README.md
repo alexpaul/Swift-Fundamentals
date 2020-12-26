@@ -202,7 +202,7 @@ Swift fundamentals with exercises.
    * Implicitly assigned Raw Values 
 
    
-## 9. [Structures and Classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
+## 9. [Structures](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
 
    ```swift 
    struct Venue {
@@ -211,7 +211,12 @@ Swift fundamentals with exercises.
      let latitude: Double
      let longitude: Double
    }
+   ```
    
+   
+## 10. [Classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
+
+   ```swift    
    class Person {
      let name: String 
      let age: Int
@@ -226,9 +231,15 @@ Swift fundamentals with exercises.
    }
    ```
 
-# 10. Properties
+# 11. Properties
 
-# 11. Methods
+   ```swift 
+   var fullName: String {
+     return firstName + " " + lastName
+   }
+   ```
+
+# 12. Methods
 
 ## Exercises
 

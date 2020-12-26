@@ -241,6 +241,37 @@ Swift fundamentals with exercises.
 
 # 12. Methods
 
+   Instance Method 
+   ```swift 
+   struct Person {
+     let name: String 
+     
+     func info() {
+       print("My name is \(name)")
+     }
+   }
+   
+   let person = Person(name: "Alex")
+   person.info() // instance method
+   ```
+   
+   Type Method
+   ```swift 
+   struct Person {
+     let name: String 
+     
+     static func getRaces() -> [String] {
+       return ["Black", "Asian", "White", "LatinX"]
+     }
+     
+     func info() {
+       print("My name is \(name)")
+     }
+   }
+   
+   Person.getRaces() // type method
+   ```
+
 ## Exercises
 
 Complete the exercise in Swift Playground or an online IDE like [repl.it](https://repl.it) . 

@@ -272,6 +272,19 @@ Swift fundamentals with exercises.
    Person.getRaces() // type method
    ```
 
+## 13. Subscripts 
+
+```swift 
+struct Person {
+  subscript(_ address: String) -> String {
+    return geocode(address)
+  }
+}
+
+let person = Person() 
+print(person["105 Broadway, New York, NY"]) // 11249
+```
+
 ## Exercises
 
 Complete the exercise in Swift Playground or an online IDE like [repl.it](https://repl.it) . 

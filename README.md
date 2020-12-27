@@ -231,7 +231,7 @@ Swift fundamentals with exercises.
    }
    ```
 
-# 11. Properties
+# 11. [Properties](https://docs.swift.org/swift-book/LanguageGuide/Properties.html)
 
    ```swift 
    var fullName: String {
@@ -239,7 +239,7 @@ Swift fundamentals with exercises.
    }
    ```
 
-# 12. Methods
+# 12. [Methods](https://docs.swift.org/swift-book/LanguageGuide/Methods.html)
 
    Instance Method 
    ```swift 
@@ -272,7 +272,7 @@ Swift fundamentals with exercises.
    Person.getRaces() // type method
    ```
 
-## 13. Subscripts 
+# 13. [Subscripts](https://docs.swift.org/swift-book/LanguageGuide/Subscripts.html)
 
 ```swift 
 struct Person {

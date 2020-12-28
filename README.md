@@ -287,7 +287,23 @@ print(person["105 Broadway, New York, NY"]) // 11249
 
 ## 14. [Inheritance](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html)
 
+```swift 
+class VenueCell: UICollectionViewCell {
+  // VenueCell inherits all functions and properties from its Parent class, UICollectionViewCell
+}
+```
+
 ## 15. [Initialization](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html)
+
+```swift 
+class Node {
+  var value: Int 
+  var next: Node? 
+  init(_ value: Int) {
+    self.value = value
+  }
+}
+```
 
 ## Exercises
 

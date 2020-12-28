@@ -285,6 +285,10 @@ let person = Person()
 print(person["105 Broadway, New York, NY"]) // 11249
 ```
 
+## 14. [Inheritance](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html)
+
+## 15. [Initialization](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html)
+
 ## Exercises
 
 Complete the exercise in Swift Playground or an online IDE like [repl.it](https://repl.it) . 

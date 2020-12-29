@@ -213,6 +213,13 @@ Swift fundamentals with exercises.
    }
    ```
    
+   # Glossary 
+   
+   * Memberwise Initializer 
+   * Value type 
+   * `mutating func`
+   * Immutable 
+   
    
 ## 10. [Classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
 

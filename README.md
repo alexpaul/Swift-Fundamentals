@@ -326,6 +326,27 @@ class ItemViewController: UIViewController {
 
 ## 17. [Optional Chaining](https://docs.swift.org/swift-book/LanguageGuide/OptionalChaining.html)
 
+```swift 
+struct Person {
+  var name: String
+  var phone: Phone?  
+
+  struct Phone {
+    var work: String? 
+    var home: String?
+  }
+}
+
+let person = Person(name: "Alice", phone: Person.Phone(work:"917-457-3498", home: nil))
+
+if let workPhone = person.phone?.work {
+  print("\(person.name)'s work phone number is \(workPhone)'")
+  // Alice's work phone number is 917-457-3498
+} else {
+  print("\(person.name) does not have a work phone number.")
+}
+```
+
 ## 18. [Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#)
 
 ## Exercises

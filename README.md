@@ -314,6 +314,16 @@ class Node {
 
 ## 16. [Deinitialization](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html#)
 
+> `deint` only works within classess 
+
+```swift 
+class ItemViewController: UIViewController {
+  deinit {
+    // do any cleanup code or remove any notifications or listeners e.g Firebase listener
+  }
+}
+```
+
 ## 17. [Optional Chaining](https://docs.swift.org/swift-book/LanguageGuide/OptionalChaining.html)
 
 ## 18. [Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#)

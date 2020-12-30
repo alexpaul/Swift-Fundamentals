@@ -312,6 +312,12 @@ class Node {
 }
 ```
 
+## 16. [Deinitialization](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html#)
+
+## 17. [Optional Chaining](https://docs.swift.org/swift-book/LanguageGuide/OptionalChaining.html)
+
+## 18. [Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#)
+
 ## Exercises
 
 Complete the exercise in Swift Playground or an online IDE like [repl.it](https://repl.it) . 

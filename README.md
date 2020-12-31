@@ -300,6 +300,14 @@ Swift fundamentals with exercises.
    
    Person.getRaces() // type method
    ```
+   
+   #### Glossary 
+   
+   * Type method 
+   * Instance method 
+   * `self`
+   * `mutating func`
+   * `@discardableResult`
 
 ## 13. [Subscripts](https://docs.swift.org/swift-book/LanguageGuide/Subscripts.html)
 

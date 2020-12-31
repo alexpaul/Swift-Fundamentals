@@ -311,100 +311,102 @@ Swift fundamentals with exercises.
 
 ## 13. [Subscripts](https://docs.swift.org/swift-book/LanguageGuide/Subscripts.html)
 
-```swift 
-struct Person {
-  subscript(_ address: String) -> String {
-    return geocode(address)
-  }
-}
+   ```swift 
+   struct Person {
+     subscript(_ address: String) -> String {
+       return geocode(address)
+     }
+   }
 
-let person = Person() 
-print(person["105 Broadway, New York, NY"]) // 11249
-```
+   let person = Person() 
+   print(person["105 Broadway, New York, NY"]) // 11249
+   ```
 
 ## 14. [Inheritance](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html)
 
-```swift 
-class VenueCell: UICollectionViewCell {
-  // VenueCell inherits all functions and properties from its Parent class, UICollectionViewCell
-}
-```
+   ```swift 
+   class VenueCell: UICollectionViewCell {
+     // VenueCell inherits all functions and properties from its Parent class, UICollectionViewCell
+   }
+   ```
+
+
 
 ## 15. [Initialization](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html)
 
-```swift 
-class Node {
-  var value: Int 
-  var next: Node? 
-  init(_ value: Int) {
-    self.value = value
-  }
-}
-```
+   ```swift 
+   class Node {
+     var value: Int 
+     var next: Node? 
+     init(_ value: Int) {
+       self.value = value
+     }
+   }
+   ```
 
 ## 16. [Deinitialization](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html#)
 
-> `deint` only works within classess 
+   > `deint` only works within classess 
 
-```swift 
-class ItemViewController: UIViewController {
-  deinit {
-    // do any cleanup code or remove any notifications or listeners e.g Firebase listener
-  }
-}
-```
+   ```swift 
+   class ItemViewController: UIViewController {
+     deinit {
+       // do any cleanup code or remove any notifications or listeners e.g Firebase listener
+     }
+   }
+   ```
 
 ## 17. [Optional Chaining](https://docs.swift.org/swift-book/LanguageGuide/OptionalChaining.html)
 
-```swift 
-struct Person {
-  var name: String
-  var phone: Phone?  
+   ```swift 
+   struct Person {
+     var name: String
+     var phone: Phone?  
 
-  struct Phone {
-    var work: String? 
-    var home: String?
-  }
-}
+     struct Phone {
+       var work: String? 
+       var home: String?
+     }
+   }
 
-let person = Person(name: "Alice", phone: Person.Phone(work:"917-457-3498", home: nil))
+   let person = Person(name: "Alice", phone: Person.Phone(work:"917-457-3498", home: nil))
 
-if let workPhone = person.phone?.work {
-  print("\(person.name)'s work phone number is \(workPhone)'")
-  // Alice's work phone number is 917-457-3498
-} else {
-  print("\(person.name) does not have a work phone number.")
-}
-```
+   if let workPhone = person.phone?.work {
+     print("\(person.name)'s work phone number is \(workPhone)'")
+     // Alice's work phone number is 917-457-3498
+   } else {
+     print("\(person.name) does not have a work phone number.")
+   }
+   ```
 
 ## 18. [Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#)
 
-```swift 
-enum AppError: Error {
-  case badYear
-  case noData 
-  case serverError
-}
+   ```swift 
+   enum AppError: Error {
+     case badYear
+     case noData 
+     case serverError
+   }
 
-func currentYear(_ year: Int) throws {
-  if year == 2020 {
-    throw AppError.badYear
-  }
-  print("Fingers crossed this is a great year for us all.")
-}
+   func currentYear(_ year: Int) throws {
+     if year == 2020 {
+       throw AppError.badYear
+     }
+     print("Fingers crossed this is a great year for us all.")
+   }
 
-do {
-  try currentYear(2020)
-} catch {
-  print(error) // badYear
-}
+   do {
+     try currentYear(2020)
+   } catch {
+     print(error) // badYear
+   }
 
-do {
-  try currentYear(2021) // Fingers crossed this is a great year for us all.
-} catch {
-  print(error)
-}
-```
+   do {
+     try currentYear(2021) // Fingers crossed this is a great year for us all.
+   } catch {
+     print(error)
+   }
+   ```
 
 ## Exercises
 

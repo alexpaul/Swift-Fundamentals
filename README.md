@@ -213,7 +213,7 @@ Swift fundamentals with exercises.
    }
    ```
    
-   # Glossary 
+   #### Glossary 
    
    * Memberwise Initializer 
    * Value type 
@@ -238,7 +238,7 @@ Swift fundamentals with exercises.
    }
    ```
    
-   # Glossary 
+   #### Glossary 
    
    * inheritance 
    * deintializers
@@ -255,6 +255,18 @@ Swift fundamentals with exercises.
      return firstName + " " + lastName
    }
    ```
+   
+   #### Glossary 
+   
+   * stored property 
+   * computed property 
+   * `lazy` property 
+   * setter 
+   * getter 
+   * propety observer
+   * property wrappers
+   * Type property 
+   * Instance property
 
 ## 12. [Methods](https://docs.swift.org/swift-book/LanguageGuide/Methods.html)
 

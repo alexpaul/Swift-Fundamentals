@@ -329,7 +329,14 @@ Swift fundamentals with exercises.
      // VenueCell inherits all functions and properties from its Parent class, UICollectionViewCell
    }
    ```
-
+   
+   #### Glossary 
+   
+   * Overriding 
+   * Subclassing 
+   * `final`
+   * Base class 
+   * Super class
 
 
 ## 15. [Initialization](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html)
@@ -343,6 +350,15 @@ Swift fundamentals with exercises.
      }
    }
    ```
+   
+   #### Glossary 
+   
+   * Default initializers 
+   * Memberwise initializers 
+   * Designated initializers
+   * Convenient initializers 
+   * Failable initializers 
+   * Required initializers 
 
 ## 16. [Deinitialization](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html#)
 

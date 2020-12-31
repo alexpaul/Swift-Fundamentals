@@ -349,6 +349,33 @@ if let workPhone = person.phone?.work {
 
 ## 18. [Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#)
 
+```swift 
+enum AppError: Error {
+  case badYear
+  case noData 
+  case serverError
+}
+
+func currentYear(_ year: Int) throws {
+  if year == 2020 {
+    throw AppError.badYear
+  }
+  print("Fingers crossed this is a great year for us all.")
+}
+
+do {
+  try currentYear(2020)
+} catch {
+  print(error) // badYear
+}
+
+do {
+  try currentYear(2021) // Fingers crossed this is a great year for us all.
+} catch {
+  print(error)
+}
+```
+
 ## Exercises
 
 Complete the exercise in Swift Playground or an online IDE like [repl.it](https://repl.it) . 

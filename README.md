@@ -237,6 +237,16 @@ Swift fundamentals with exercises.
      // inherits all properies and methods of the Person parent class    
    }
    ```
+   
+   # Glossary 
+   
+   * inheritance 
+   * deintializers
+   * reference type 
+   * pointer 
+   * retain cycle 
+   * identity operator `===`
+
 
 ## 11. [Properties](https://docs.swift.org/swift-book/LanguageGuide/Properties.html)
 

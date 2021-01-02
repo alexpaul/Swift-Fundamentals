@@ -423,6 +423,13 @@ Swift fundamentals with exercises.
      print(error)
    }
    ```
+   
+   ##### Glossary 
+   
+   * throw 
+   * throws 
+   * do-catch 
+   * `try`, `try?` and `try!`
 
 ## Exercises
 

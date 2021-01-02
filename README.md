@@ -430,6 +430,7 @@ Swift fundamentals with exercises.
    * throws 
    * do-catch 
    * `try`, `try?` and `try!`
+   * Error
 
 ## Exercises
 

@@ -434,10 +434,55 @@ Swift fundamentals with exercises.
    
 ## 19. Type Casting 
 
-```swift 
-```
+   Downcasting 
+   
+   ```swift 
+   class Person {
+     func info() {
+       print("This is a person.")
+     }
+   }
+
+   class Fellow: Person {
+     override func info() {
+       print("This person is a fellow.")
+     }
+   }
+
+   class Singer: Person {
+     override func info() {
+       print("This person is a singer.")
+     }
+   }
+
+   let heather = Fellow()
+   let bob = Singer()
+   let people = [bob, heather]
+
+   if let person = people[0] as? Singer { // downcast from Person object to a Singer object
+     person.info() // This person is a singer.
+   }
+   ```
+   
+   Type checking 
+   
+   ```swift 
+   let objects: [Any] = ["Alex", true, 2021]
+
+   if objects[0] is String {
+     print("\(objects[0]) is a String object.") // Alex is a String object.
+   }
+
+   if objects[1] is Bool {
+     print("\(objects[1]) is a Bool instance.") // true is a Bool instance.
+   }
+   ```
 
    #### Glossary 
+   
+   * downcasting 
+   * `as!`, `as?`, `as`
+   * type checking
    
 
 ## Exercises

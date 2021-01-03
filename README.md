@@ -431,6 +431,14 @@ Swift fundamentals with exercises.
    * do-catch 
    * `try`, `try?` and `try!`
    * Error
+   
+## 19. Type Casting 
+
+```swift 
+```
+
+   #### Glossary 
+   
 
 ## Exercises
 

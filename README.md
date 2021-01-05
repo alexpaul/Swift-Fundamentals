@@ -180,7 +180,7 @@ Swift fundamentals with exercises.
    * implicit return 
    * multiple trailing closures 
    
-   1. [Vidoe: Closures](https://youtu.be/Q0fahJeV4Zo)
+   1. [Video: Closures](https://youtu.be/Q0fahJeV4Zo)
    2. [Closures code examples](https://repl.it/@alexpaul/Closures#main.swift)
 
    
@@ -201,8 +201,8 @@ Swift fundamentals with exercises.
    * Raw Values 
    * Implicitly assigned Raw Values 
    
-   1. [Vidoe: Enumerations](https://youtu.be/XXaaYV1_d-Y)
-   2. [Closures code examples](https://repl.it/@alexpaul/Enumerations#main.swift)
+   1. [Video: Enumerations](https://youtu.be/XXaaYV1_d-Y)
+   2. [Enums code examples](https://repl.it/@alexpaul/Enumerations#main.swift)
 
    
 ## 9. [Structures](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)

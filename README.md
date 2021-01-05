@@ -200,6 +200,9 @@ Swift fundamentals with exercises.
    * Associated Values
    * Raw Values 
    * Implicitly assigned Raw Values 
+   
+   1. [Vidoe: Enumerations](https://youtu.be/XXaaYV1_d-Y)
+   2. [Closures code examples](https://repl.it/@alexpaul/Enumerations#main.swift)
 
    
 ## 9. [Structures](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)

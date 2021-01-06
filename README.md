@@ -201,8 +201,13 @@ Swift fundamentals with exercises.
    * Raw Values 
    * Implicitly assigned Raw Values 
    
+   ##### Introduction to `enums`
    1. [Video: Enumerations](https://youtu.be/XXaaYV1_d-Y)
    2. [Enums code examples](https://repl.it/@alexpaul/Enumerations#main.swift)
+   
+   ##### Methods and Properties in `enums`
+   1. [Video: Enums - Methods and Properties](https://youtu.be/AGxEa4G0ADk)
+   1. [Code examples](https://repl.it/@alexpaul/Enums-Methods-and-Properties#main.swift)
 
    
 ## 9. [Structures](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)

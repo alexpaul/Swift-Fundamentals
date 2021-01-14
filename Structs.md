@@ -181,6 +181,15 @@ struct Person {
   var fullName: String {
     let middleName = self.middleName == nil ? " " : " \(self.middleName ?? "") "
     return firstName + middleName + lastName
+    
+    // alternatively you can use an if let/else
+    /*
+    if let middleName = self.middleName {
+      return "\(firstName) \(middleName) \(lastName)"
+    } else {
+      return "\(firstName) \(lastName)"
+    }
+    */
   }
 }
 

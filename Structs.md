@@ -137,7 +137,7 @@ What will the value of `joeAccount.balance` be after the above code runs? What a
 <details> 
  <summary>Solution</summary>
  
-`joeAccount.balance` will be `100.0`.   
+`joeAccount.balance` will be `50.0`.   
 `joeOtherAccount.balance` will be `100.0` since this is a value-type and it has its own copy, modifications to the `joeAccount` instance won't affect `joeOtherAccount` 's balance so it will remain `100.0` thank God that would be quite a shaddy bank. 
  
 </details> 

@@ -4,6 +4,8 @@ Swift fundamentals with exercises.
 
 > Attention developer: Please read the Swift Language Guide on a topic or watch the YouTube complimentary video before going onto the `Exercises` section below.
 
+<a href="https://www.buymeacoffee.com/alexpaulnyc" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 # [YouTube Playlist - Swift Fundamentals](https://youtube.com/playlist?list=PLjdVqs-1R8wHFc6iVGkXJgEZ6BRW-S3L_)
 
 # Table of Contents 

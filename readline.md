@@ -1,6 +1,6 @@
 # Readline 
 
-## Using `readline`
+## Using `readLine`
 
 ```swift
 func convertStringToIntegers(_ stripped: [String.SubSequence]) -> [Int] {

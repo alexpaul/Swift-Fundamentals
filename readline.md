@@ -33,3 +33,9 @@ if let value = readLine() {
     print("The three integers are \(prefix)")
 }
 ```
+
+***
+
+## Resources
+
+* [Video: Using readLine() and the macOS Command Line Tool](https://www.youtube.com/watch?v=QXyiVYO56_w)

@@ -3,7 +3,7 @@
 ## Using `readline`
 
 ```swift
-print("Enter N positive integers")
+print("Enter N integers")
 var nPositiveIntegers = [Int]()
 if let value = readLine() {
     let stripped = value.split(separator: " ")

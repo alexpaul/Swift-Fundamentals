@@ -16,15 +16,6 @@ func convertStringToIntegers(_ stripped: [String.SubSequence]) -> [Int] {
 }
 
 // Input 1
-print("Enter N integers")
-var nPositiveIntegers = [Int]()
-if let value = readLine() {
-    let stripped = value.split(separator: " ")
-    nPositiveIntegers = convertStringToIntegers(stripped)
-}
-print("\(nPositiveIntegers.count) integers were entered: \(nPositiveIntegers)")
-
-// Input 2
 print("Enter three integers")
 if let value = readLine() {
     let stripped = value.split(separator: " ")
@@ -32,6 +23,15 @@ if let value = readLine() {
     let prefix = nums.prefix(3)
     print("The three integers are \(prefix)")
 }
+
+// Input 2
+print("Enter N integers")
+var nPositiveIntegers = [Int]()
+if let value = readLine() {
+    let stripped = value.split(separator: " ")
+    nPositiveIntegers = convertStringToIntegers(stripped)
+}
+print("\(nPositiveIntegers.count) integers were entered: \(nPositiveIntegers)")
 ```
 
 ***
